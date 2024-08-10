@@ -18,7 +18,7 @@
     "ytdl-next-gen"
   ],
   "author": "Aditya Ramadhan <ditzofc@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2"
   }
