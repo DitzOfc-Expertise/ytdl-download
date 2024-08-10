@@ -1,0 +1,25 @@
+{
+  "name": "ytdl-download",
+  "version": "1.0.1-a",
+  "description": "Powerfull downloader YouTube",
+  "main": "index.cjs",
+  "module": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "scripts": {
+    "test": "node index.cjs && node index.js"
+  },
+  "keywords": [
+    "ytdl-download",
+    "ytdl-next-gen"
+  ],
+  "author": "Aditya Ramadhan <ditzofc@gmail.com>",
+  "license": "ISC"
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
